@@ -1,119 +1,108 @@
-# Cognifyz Technologies — Data Analytics Internship
+<div align="center">
 
-## Price Range vs. Online Delivery & Table Booking
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,100:a855f7&height=200&section=header&text=Karthikeyan%20Thirunavukkarasu&fontSize=36&fontColor=ffffff&fontAlignY=38&desc=Data%20Analytics%20%7C%20Python%20%7C%20Machine%20Learning&descAlignY=58&descColor=c4b5fd" />
 
-**Analyst:** Karthikeyan Thirunavukkarasu
-**Organization:** Cognifyz Technologies
-**Dataset:** Cognifyz Restaurant Dataset · 9,551 records · 21 features
+</div>
 
----
+<br/>
 
-## Project Overview
+<div align="center">
 
-This project delivers a statistical analysis of the relationship between restaurant price tiers and the availability of online delivery and table booking services. The analysis answers whether higher-priced restaurants are more or less likely to offer these digital service capabilities — with results validated through formal hypothesis testing.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/karthikeyan-thirunavukkarasu-2a2949305)
+[![GitHub](https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white)](https://github.com/karthiikofcl07)
+[![Email](https://img.shields.io/badge/Open%20to%20Opportunities-6366f1?style=for-the-badge&logo=gmail&logoColor=white)](#)
 
----
-
-## Repository Structure
-
-```
-cognifyz_project/
-├── price_range_analysis.ipynb   — Main analysis notebook (run this in VS Code)
-├── cognifyz_dataset.csv         — Source dataset
-├── README.md                    — This file
-├── plot_overview.png            — Dataset overview charts (auto-generated)
-├── plot_delivery.png            — Online delivery analysis charts
-├── plot_booking.png             — Table booking analysis charts
-├── plot_combined.png            — Heatmap and stacked comparison
-└── plot_deepdive.png            — Cost and rating deep-dive charts
-```
+</div>
 
 ---
 
-## Key Findings
+## About Me
 
-| Price Tier | Restaurants | Online Delivery % | Table Booking % |
-|---|---|---|---|
-| Budget (Tier 1) | 4,444 | ~28.7% | ~5.6% |
-| Moderate (Tier 2) | 3,113 | ~22.1% | ~10.2% |
-| Premium (Tier 3) | 1,408 | ~11.0% | ~28.9% |
-| Luxury (Tier 4) | 586 | ~6.3% | ~45.4% |
+I am a data analyst with a strong foundation in Python-based analytics, statistical inference, and data visualization. Currently completing a Data Analytics Internship at **Cognifyz Technologies**, where I work on real-world restaurant datasets — uncovering patterns in pricing, service availability, customer ratings, and cuisine trends.
 
-**Online Delivery** — adoption is highest in budget restaurants and declines monotonically with price tier. This is a volume-driven, budget-segment strategy.
-
-**Table Booking** — adoption rises sharply with price, peaking at luxury tier. Premium dining experiences are strongly correlated with reservation capability.
-
-**Statistical Tests** — Chi-Square tests confirm both relationships are statistically significant (p ≪ 0.05). Cramér's V confirms a moderate-to-strong association for table booking.
+I approach every dataset as a problem-solving exercise: clean it, interrogate it, visualize it, and extract decisions from it. My work combines technical rigor with clear communication — because analysis that cannot be understood cannot drive action.
 
 ---
 
-## Setup Instructions
+## Technical Skills
 
-### Prerequisites
+**Languages & Libraries**
 
-- Python 3.8 or higher
-- VS Code with the Jupyter extension installed
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logo=python&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat-square&logo=python&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 
-### Install Dependencies
+**Tools & Environments**
 
-```bash
-pip install pandas numpy matplotlib seaborn scipy jupyter nbformat
-```
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-### Run the Notebook
+**Core Competencies**
 
-1. Open VS Code
-2. Open the `cognifyz_project/` folder
-3. Open `price_range_analysis.ipynb`
-4. Select your Python interpreter (Python 3.8+)
-5. Click **Run All** or execute cells sequentially
-
----
-
-## Analysis Sections
-
-**Section 1 — Exploratory Data Analysis**
-Dataset profiling, price range distribution, and service availability class balance.
-
-**Section 2 — Online Delivery vs. Price Range**
-Grouped bar charts, percentage tables, and trend lines showing delivery adoption per tier.
-
-**Section 3 — Table Booking vs. Price Range**
-Equivalent analysis for table booking availability with directional comparison.
-
-**Section 4 — Combined Heatmap and Stacked Analysis**
-Side-by-side heatmap, stacked proportional bars for both services simultaneously.
-
-**Section 5 — Statistical Significance Testing**
-Chi-Square test of independence, p-values, degrees of freedom, and Cramér's V effect size.
-
-**Section 6 — Average Cost and Rating Deep-Dive**
-Violin plots of cost distributions, aggregate rating by tier, and service correlation with quality.
+- Exploratory Data Analysis (EDA)
+- Statistical Hypothesis Testing (Chi-Square, ANOVA)
+- Data Visualization & Storytelling
+- Feature Engineering & Data Cleaning
+- Business Insight Extraction
 
 ---
 
-## Technologies Used
+## Featured Project
 
-| Tool | Purpose |
-|---|---|
-| Python 3 | Core programming language |
-| Pandas | Data manipulation and aggregation |
-| NumPy | Numerical operations |
-| Matplotlib | Primary visualization library |
-| Seaborn | Heatmaps and statistical plots |
-| SciPy | Chi-Square hypothesis testing |
-| Jupyter | Interactive notebook environment |
+### Cognifyz Data Analytics Internship
 
----
+> **Price Range vs. Online Delivery & Table Booking**
 
-## Analyst
+A statistical analysis of 9,551 restaurants examining whether price tier influences the availability of online delivery and table booking services.
 
-**Karthikeyan Thirunavukkarasu**
-Data Analytics Intern — Cognifyz Technologies
+**Highlights:**
+- Built a full 6-section analysis pipeline in Python with Pandas, Matplotlib, and Seaborn
+- Applied Chi-Square tests with Cramér's V effect size to validate statistical significance
+- Discovered an inverse relationship between price tier and online delivery adoption, and a direct relationship with table booking adoption
+- Delivered publication-quality dark-themed visualizations across 5 chart categories
 
-- LinkedIn: [linkedin.com/in/karthikeyan-thirunavukkarasu-2a2949305](https://www.linkedin.com/in/karthikeyan-thirunavukkarasu-2a2949305)
-- GitHub: [github.com/karthiikofcl07](https://github.com/karthiikofcl07)
+**Key Finding:** Higher-priced restaurants are significantly more likely to offer table booking (5.6% → 45%+ across tiers), while online delivery is a budget-segment phenomenon.
+
+[![View Project](https://img.shields.io/badge/View%20Project-6366f1?style=for-the-badge&logo=github&logoColor=white)](https://github.com/karthiikofcl07)
 
 ---
 
-*This project is part of the Cognifyz Technologies Data Analytics Internship program.*
+## GitHub Stats
+
+<div align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=karthiikofcl07&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=karthiikofcl07&layout=compact&theme=tokyonight&hide_border=true" />
+
+</div>
+
+---
+
+## Currently
+
+- Completing a **Data Analytics Internship** at Cognifyz Technologies
+- Building end-to-end analysis projects with Python
+- Deepening expertise in statistical modeling and machine learning
+- Open to **full-time Data Analyst / Data Science roles**
+
+---
+
+## Connect
+
+I am always open to discussing data, project collaborations, and new opportunities.
+
+**LinkedIn:** [linkedin.com/in/karthikeyan-thirunavukkarasu-2a2949305](https://www.linkedin.com/in/karthikeyan-thirunavukkarasu-2a2949305)
+**GitHub:** [github.com/karthiikofcl07](https://github.com/karthiikofcl07)
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:a855f7,100:6366f1&height=100&section=footer" />
+
+</div>
